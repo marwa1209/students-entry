@@ -5,7 +5,7 @@ import { routes } from './app.routes';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { provideState, provideStore } from '@ngrx/store';
 import { provideStoreDevtools } from '@ngrx/store-devtools';
-import { StudentsReducer } from './state/students-reducer';
+import { StudentsReducer } from './state/students.reducer';
 
 export const appConfig: ApplicationConfig = {
   providers: [
